@@ -1,0 +1,35 @@
+{
+  "apiVersion": 2,
+  "name": "lottie-image/lottie-image",
+  "version": "1.0.0",
+  "title": "Lottie Image",
+  "category": "lottie-image",
+  "icon": "location",
+  "description": "Lottie Image is a block that allows you to add Lottie animations to your website.",
+  "supports": {
+    "html": false,
+    "anchor": true
+  },
+  "keywords": [
+    "lottie",
+    "animation",
+    "image",
+    "video",
+    "gif",
+    "svg",
+    "json"
+  ],
+  "attributes": {
+    "id": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "textdomain": "lottie-image",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
